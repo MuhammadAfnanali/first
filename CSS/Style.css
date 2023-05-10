@@ -1,0 +1,30 @@
+.title{
+    color: blue;
+    text-align: center;
+}
+.box{
+    background-color: aqua;
+}
+.text{
+    color: blueviolet;
+    text-align: center;
+    width: 60;
+}
+.boxtwo{
+    background-color: lightgrey;
+}
+.info{
+    text-align: center;
+}
+.infotwo{
+    text-align: center;
+}
+.box{
+    background-color: cyan;
+    width: 500;
+    height: 400;
+    align-content: center;
+}
+.font{
+    font-size: 20px;
+}

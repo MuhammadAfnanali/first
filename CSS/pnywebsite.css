@@ -1,0 +1,520 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+} */
+.navbar{
+    display: flex;
+    gap: 120px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.list ul{
+    display: flex;
+    gap: 20px;
+}
+.list ul li{
+    list-style-type: none;
+}
+.search-box{
+    padding: 5px 60px;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    width: 100%;
+    background-color: #13bddf;
+    color: white;
+    padding: 10px;
+    align-items: start;
+    
+    
+}
+.num{
+    flex-grow: 2;
+}
+.mail{
+    flex-grow: 50;
+}
+
+.list1 ul{
+    display: flex;
+    gap: 5px;
+    color: white;
+    align-items: center;
+   justify-content: center;  
+}
+.list1 ul li{
+    list-style-type: none;
+    
+    
+}
+a{
+   text-decoration: none;
+   color:white;
+}
+.btn1{
+    background-color: yellow;
+}
+.btn3{
+    background-color: brown;
+}
+
+.image{
+    width: 100%;
+    height: 350px;
+}
+.cards{
+    display: flex;
+    height: 35vh;
+    width: 100%;
+    align-items: center;
+    /* border: 2px solid black; */
+    justify-content: center;
+    
+    
+}
+.card1{
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 20px;
+    font-size: large;
+}
+.card2{
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 20px;
+    font-size: large;
+    
+}
+.card3{
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 20px;
+    font-size: large;
+    
+}
+.images10{
+   width: 40px;
+   height: 20px;
+   
+}
+.desc{
+    text-align: center;
+}
+.learning-section{
+    height: 650px;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.title4{
+    font-size: 25px;
+}
+.learning{
+    height: 500px;
+    
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.learning1{
+    height: 200px;
+    width: 400px;
+    background-color: white;
+
+}
+.learning2{
+    height: 200px;
+    width: 400px;
+    background-color: white;
+
+}
+.learning3{
+    height: 200px;
+    width: 400px;
+    background-color: white;
+
+}
+.learning4{
+    height: 200px;
+    width: 400px;
+    background-color: white;
+
+}
+.learning5{
+    height: 200px;
+    width: 400px;
+    background-color: white;
+
+}
+.learning6{
+    height: 200px;
+    width: 400px;
+    background-color: white;
+
+}
+.title{
+    padding: 20px;
+    
+}
+.title4{
+    font-size: 25px;
+}
+.btn{
+    padding: 10px;
+   
+    width: 130px;
+    border: 2px solid black;
+    margin-top: 15px;
+    margin-left: 8px;
+    color:red;
+    
+}
+.btn:hover{
+    background-color: #13bddf;
+}
+.btn50{
+    padding: 7px;
+    background-color: #13bddf;
+}
+.btn50:hover{
+    background-color: red;
+}
+.Courses-Section{
+    height: 450px;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+ 
+    justify-content: center;
+    gap: 30px;
+}
+.title15{
+    font-size: 25px;
+   margin-left: 190px;
+   margin-top: 10px;
+}
+.Courses{
+    height: 500px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.courses1{
+    height: 320px;
+    width: 200px;
+    background-color: white;
+    border: 1px solid lightslategray;
+}
+.courses2{
+    height: 320px;
+    width: 200px;
+    background-color: white;
+    border: 1px solid lightslategray;
+}
+.courses3{
+    height: 320px;
+    width: 200px;
+    background-color: white;
+    border: 1px solid lightslategray;
+}
+.courses4{
+    height: 320px;
+    width: 200px;
+    background-color: white;
+    border: 1px solid lightslategray;
+}
+.courses5{
+    height: 320px;
+    width: 200px;
+    background-color: white;
+    border: 1px solid lightslategray;
+}
+.images{
+   
+   width: 100%               ;
+
+}
+.description{
+    padding: 10px;
+}
+.rs{
+    text-align: center;
+}
+.event-section{
+    height: 65vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.cardss{
+    height: 300px;
+    display: flex;
+    gap: 20px;
+    
+    justify-content: center;
+    flex-wrap: wrap;
+     
+}
+.events{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.cardss1{
+    height: 130px;
+    width: 550px;
+    background-color: whitesmoke;
+    display: flex;
+    
+}
+/* .cardss2{
+    height: 130px;
+    width: 550px;
+    background-color: whitesmoke;
+}
+.cardss3{
+    height: 130px;
+    width: 550px;
+    background-color: whitesmoke;
+}
+.cardss4{
+    height: 130px;
+    width: 550px;
+    background-color: whitesmoke;
+} */
+.pic{
+    width: 150px;
+    height: 110px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.text24{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 25px;
+}
+.text26{
+    margin-left: 20px;
+}
+.div-readmore{
+    margin-left: 15px;
+    background-color: lime;
+}
+.allevents{
+    padding: 7px;
+    background-color: #13bddf;
+}
+.allevents:hover{
+    background-color: red;
+}
+.skill-share{
+    height: 200px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.skill{
+    font-size: 25px;
+    padding: 10px;
+}
+.connects{
+    height: 200px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.connect{
+    height: 100px;
+    background-color: whitesmoke;
+    display: flex;
+}
+.image40{
+    height: 70px;  
+}
+.desc39{
+    text-align: center;
+    height: 90px;
+    width: 300px;
+}.title40{
+    gap: 20px;
+}
+.connect1{
+    height: 100px;
+    background-color: whitesmoke;
+    display: flex;
+}
+.connect2{
+    height: 100px;
+    background-color:whitesmoke;
+    display: flex;
+}
+.desc41{
+    padding: 30px;
+}
+.imagess{
+    border: 1px solid black;
+    border-radius: 50vh;
+}
+.testimonial-section{
+    height: 50vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.testimonial-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.titless{
+    font-size: 30px;
+    font-weight: bold;
+}
+.descriptions{
+    width: 80%;
+}
+.dots{
+    display: flex;
+    gap: 5px;
+}
+.dot1{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: red;
+}
+.dot2{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color:yellowgreen;
+}
+.dot3{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color:palegreen;
+}
+.image-section{
+    height: 450px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+}
+.imagessss{
+    height: 65px;
+    /* background-color: burlywood; */
+    
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.textsss{
+    font-size: 25px;
+}
+.texting{
+    text-align: center;
+    padding: 50px;
+}
+
+
+
+
+/* For tablet Screen */
+@media screen and (max-width: 768px){
+    
+    .learning-section{
+        height: 1400px;
+    }
+    
+}
+@media screen and (max-width: 768px){
+    .Courses-Section{
+        height: 550px;
+        background-color:white;
+        display: flex;
+        flex-direction: column;
+     
+        justify-content: center;
+        gap: 30px;
+    }
+}
+@media screen and (max-width:768px){
+    .event-section{
+        height: 800px;
+        width: 80%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+}
+@media screen and (max-width:768px){
+    .connects{
+        height: 400px;
+        width: 80%;
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        align-items: center;
+}
+.skill-share{
+    height: 700px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+}
+
+
+
+
+
+

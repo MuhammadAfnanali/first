@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/Style.css">
+    <title>Styling with CSS</title>
+</head>
+<body>
+    <div class="box">
+        <form snap style="background-color: white;">
+            <hr>
+            <img src="https://www.nts.org.pk/new/img/nts_logo.png"/ height="80" width="90">
+        <h1 style="text-align: center;" >National Testing Services - Pakistan</h1>
+        <div style="text-align: center; background-color: red; " >BUILDING STANDARDS IN EDUCATIONAL AND PROFESSIONAL TESTING</div><br/>
+        <hr>
+        <h1 style="text-align: center;">CANDIDATE PORTAL</h1><br/>
+        <!-- First name -->
+        <label>FIRST NAME <span style="color:red">*</span></label>
+    <input type="text" name="first name" value="" placeholder="Enter your first name" required/>
+    <!-- Last Name -->
+    <label>LAST NAME <span style="color:red">*</span></label>
+    <input type="text" name="last name" value="" placeholder="Enter your last name" required/><br/>
+    <br/>
+    <label>CNIC/B-FORM<small style="color: red;"> CNIC SHOULD BE WITHOUT DASHES<span style="color: red;">*</span></small></label>
+    <input type="number" name="CNIC" value="" placeholder="xxxxxxxxxxxxx" required/><br/>
+    <small>
+        <span style="color: red;">*Note:</span><br/>
+        <span style="color: red;">Please use your own CNIC number for registration</span><br/>
+        <span style="color: red;">Please make sure your CNIC is correct</span><br/>
+        <span style="color: red;">CNIC, Phone Number and Email can not be changed after registration</span>
+    </small><br/>
+    <br/>
+    <label>MOBILE NUMBER:</label>
+    <input type="number" name="number" value="" placeholder="03xxxxxxxxx"/><br/>
+    <small>
+        <span style="color: red;">*NOTE:</span><br/>
+        <span style="color: red;">Please make sure your have not blocked the business/unwanted SMS through PTA Instruction by Reg to 676 if so please unblocked by sending sms *unreg* to 656 in order to recieve SMS alert from NTS.</span><br/>
+    </small>
+    <br/>
+    <!-- User email -->
+    <label>USER EMAIL <span style="color:red">*</span></label>
+    <input type="mail" name="email" value="" placeholder="Enter your email" required/><br/>
+    <br/>
+    <!-- User age -->
+    <label>USER AGE:</label>
+    <input type="number" name="age" value="" placeholder="Enter your age" style="width: 100px;"/><br/>
+    <br/>
+    <!-- User password -->
+    <label> PASSWORD <span style="color: red;">*</span></label>
+    <input type="password" name="password" value="" placeholder="Enter your password"/><br/>
+    <br/>
+    <!-- Radio Button -->
+    <label>Gender:</label>
+    <input type="radio" name="gender" value="Male"/>
+    <label>Male:</label>
+    <input type="radio" name="gender" value="Female"/>
+    <label>Female:</label>
+    <br/>
+    <input type="date" name="date" value=""/>
+    <input type="time" name="time" value=""/><br/>
+    <br/>
+    <!-- <User country> -->
+        <Label>Chosse your country:</Label>
+    <select>
+        <option value="USA">USA</option>
+        <option value="Pakistan">Pakistan</option>
+        <option value="France">France</option>
+        <option value="India">India</option>
+    </select><br/>
+    <br/>
+    <button type="text">I AGREE TO THE TERMS AND CONDITIONS</button><br/>
+    <br/>
+    <h3 style="color: white;text-align: center;"><button style="width: 40%; background-color: red;">SIGN UP</h3></button><br/>
+    <hr>
+    <div snap style="text-align:center;">Already have an account?</div>
+    <a href="login"><small>Sign in</small></a>
+        </form> 
+    </div>
+</body>
+</html>

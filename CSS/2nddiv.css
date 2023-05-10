@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.boxes{
+    position: relative;
+    height: 100vh;
+    width: 1000px;
+    background-color: white;
+    margin: auto;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+.box1{
+    position: absolute;
+    height: 95vh;
+    width: 939px;
+    background-color: white;
+    border: 2px solid black;
+    margin-top: 12px;
+    margin-left: 28px;
+}
+.box2{
+    position: absolute;
+    height: 14vh;
+    width: 100%;
+    background-color: darkred;
+}
+.box3{
+    position: absolute;
+    height: 50px;
+    width: 66px;
+    background-color: peachpuff;
+    margin-top: 24px;
+    margin-left: 848px;
+    border-radius: 3px;
+}
+.box4{
+    position: absolute;
+    height: 50px;
+    width: 66px;
+    background-color: peachpuff;
+    margin-top: 24px;
+    margin-left: 776px;
+    border-radius: 3px;
+}
+.box5{
+    position: absolute;
+    height: 50px;
+    width: 66px;
+    background-color: peachpuff;
+    margin-top: 24px;
+    margin-left: 704px;
+    border-radius: 3px;
+}
+.box6{
+    position: absolute;
+    height: 50px;
+    width: 66px;
+    background-color: peachpuff;
+    margin-top: 24px;
+    margin-left: 632px;
+    border-radius: 3px;
+}
+.box7{
+    position: absolute;
+    height: 32px;
+    width: 50%;
+    background-color: darkslategrey;
+    margin-top: 93px;
+}
+.text1{
+    position: absolute;
+    color: white;
+    margin-top: 5px;
+    margin-left: 8px;
+}
+.text2{
+    position: absolute;
+    color: white;
+    margin-top: 5px;
+    margin-left: 16%;
+}
+.text3{
+    position: absolute;
+    color: white;
+    margin-top: 5px;
+    margin-left: 31%;
+}
+.text4{
+    position: absolute;
+    color: white;
+    margin-top: 5px;
+    margin-left: 48%;
+}
+.box8{
+    position: absolute;
+    height: 32px;
+    width: 50%;
+    background-color: olive;
+    margin-top: 93px;
+    margin-left: 50%;
+}
+.box9{
+    position: absolute;
+    height: 20px;
+    width: 156px;
+    background-color: darkturquoise;
+    margin-top: 7px;
+    margin-left: 281px;
+}
+.box10{
+    position: absolute;
+    height: 43vh;
+    width: 100%;
+    background-color: darkgoldenrod;
+    margin-top: 124px;
+}
+.box11{
+    position: absolute;
+    height: 40vh;
+    width: 92%;
+    background-color: black;
+    margin-top: 9px;
+    margin-left: 37px;
+}
+.box12{
+    position: absolute;
+    height: 8vh;
+    width: 100%;
+    background-color: blue;
+    margin-top: 210px;
+}
+.box13{
+    position: absolute;
+    height: 24px;
+    width: 82px;
+    background-color: darkorange;
+    margin-top: 180px;
+    margin-left: 43px;
+    border-radius: 3px;
+}
+.box14{
+    position: absolute;
+    height: 24px;
+    width: 82px;
+    background-color: darkorange;
+    margin-top: 180px;
+    margin-left: 142px;
+    border-radius: 3px;
+}
+.box15{
+    position: absolute;
+    height: 31vh;
+    width: 170px;
+    background-color: white;
+    margin-top: 16px;
+    margin-left: 662px;
+    border-radius: 7px;
+}
+.box16{
+    position: absolute;
+    height: 34vh;
+    width: 170px;
+    background-color: white;
+    margin-top: 28px;
+    margin-left: 626px;
+    border-radius: 7px;
+    border: 1px solid black;
+}
+.box17{
+    position: absolute;
+    background-color: pink;
+    height: 33vh;
+    width: 50%;
+    margin-top: 408px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.box18{
+    position: absolute;
+    background-color: aqua;
+    height: 13vh;
+    width: 426px;
+    border-radius: 5px;
+    margin-top: 131px;
+    margin-left: 21px;
+    border: 1px solid black;
+}
+.box19{
+    position: absolute;
+    background-color: palegreen;
+    height: 27vh;
+    width: 441px;
+    border-radius: 5px;
+    margin-top: 435px;
+    margin-left: 482px;
+    border: 1px solid black;
+}
+.box20{
+    position: absolute;
+    background-color: darkslategray;
+    height: 39px;
+    width: 100%;
+}
+.text6{
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 79px;
+    color: white;
+}
+.text7{
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 138px;
+    color: white;
+}
+.text8{
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 210px;
+    color: white;
+}
+.text5{
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 20px;
+    color: white;
+}

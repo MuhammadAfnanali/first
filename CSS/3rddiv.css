@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.boxes{
+    position: relative;
+    height: 100vh;
+    width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+.box1{
+    position: absolute;
+    height: 93vh;
+    width: 918px;
+    margin-top: 17px;
+    margin-left: 40px;
+    background-color: white;
+    border: 5px solid grey;
+}
+.box2{
+    position: absolute;
+    height: 37vh;
+    width: 100%;
+    margin-top: 50px;
+   background-color: black;
+}
+.box3{
+    position: absolute;
+    height: 33vh;
+    width: 850px;
+    margin-top: 15px;
+    margin-left: 30px;
+    background-color: white;
+}
+.box4{
+    position: absolute;
+    height: 33vh;
+    width: 330px;
+    background-color: orange;
+    margin-left: 519px;
+    border: 2px solid white;
+}
+.text1{
+    position: absolute;
+    padding: 7px 22px;
+}
+.text1:hover{
+    border: 5px solid black;
+}
+.box5{
+    position: absolute;
+    height: 28vh;
+    width: 255px;
+    margin-top: 309px;
+    margin-left: 31px;
+    background-color: darkmagenta;
+}
+.box6{
+    position: absolute;
+    height: 13vh;
+    width: 87px;
+    margin-top: 55px;
+    margin-left: 136px;
+    background-color: blueviolet;
+}
+.box7{
+    position: absolute;
+    height: 28vh;
+    width: 255px;
+    margin-top: 309px;
+    margin-left: 321px;
+    background-color: darkmagenta;
+}
+.box8{
+    position: absolute;
+    height: 13vh;
+    width: 87px;
+    margin-top: 55px;
+    margin-left: 136px;
+    background-color: blueviolet;
+}
+.box9{
+    position: absolute;
+    height: 28vh;
+    width: 255px;
+    margin-top: 309px;
+    margin-left: 616px;
+    background-color: darkmagenta;
+}
+.box10{
+    position: absolute;
+    height: 13vh;
+    width: 87px;
+    margin-top: 55px;
+    margin-left: 136px;
+    background-color: blueviolet;
+}
+.box11{
+    position: absolute;
+    height: 11vh;
+    width: 100%;
+    margin-top: 535px;
+    background-color: grey;
+    border: 1px solid white;
+}
+.box12{
+    position: absolute;
+    height: 4vh;
+    width: 136px;
+    margin-top: 22px;
+    margin-left: 600px;
+    background-color: white;
+}
+.btn{
+    position: absolute;
+    height: 4vh;
+    width: 120px;
+    margin-top: 22px;
+    margin-left: 737px;
+    background-color: black;
+    color: white;
+}
